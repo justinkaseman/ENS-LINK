@@ -11,6 +11,7 @@
     "@oclif/command": "^1",
     "@oclif/config": "^1",
     "@oclif/plugin-help": "^3",
+    "ethers": "^5.0.14",
     "tslib": "^1"
   },
   "devDependencies": {
@@ -36,7 +37,11 @@
   "license": "MIT",
   "main": "lib/index.js",
   "oclif": {
-    "bin": "ens-link"
+    "commands": "./lib/commands",
+    "bin": "ens-link",
+    "plugins": [
+      "@oclif/plugin-help"
+    ]
   },
   "repository": "justinkaseman/ens-link",
   "scripts": {

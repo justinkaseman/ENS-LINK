@@ -13,16 +13,18 @@ Tool to administer ENS for feeds
 - Update address of feeds
 - Any additional helpful functionality
 
-<!-- toc -->
+### Questions
+- Do we expect the user to be technical? (is this a CLI tool or a tool with a GUI?)
 
-- [Usage](#usage)
-- [Commands](#commands)
+<!-- toc -->
+* [ens-link](#ens-link)
+* [Usage](#usage)
+* [Commands](#commands)
 <!-- tocstop -->
 
 # Usage
 
 <!-- usage -->
-
 ```sh-session
 $ npm install -g ens-link
 $ ens-link COMMAND
@@ -34,7 +36,6 @@ USAGE
   $ ens-link COMMAND
 ...
 ```
-
 <!-- usagestop -->
 
 # Commands
